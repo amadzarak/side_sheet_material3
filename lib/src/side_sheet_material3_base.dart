@@ -174,7 +174,10 @@ class SideSheetMaterial3 extends StatelessWidget {
     final textTheme = theme.textTheme;
     final colorScheme = theme.colorScheme;
 
-    return Material(
+    return Padding(
+                    padding: EdgeInsets.only(
+                        left: 16, top: 16, bottom: 16, right: 16),
+                    child: Material(
       elevation: 1,
       color: colorScheme.surface,
       surfaceTintColor: colorScheme.surfaceTint,
@@ -204,7 +207,7 @@ class SideSheetMaterial3 extends StatelessWidget {
           ),
         ),
       ),
-    );
+    ));
   }
 
   Widget _buildHeader(
