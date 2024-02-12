@@ -131,7 +131,7 @@ Future<void> showModalSideSheet(
   );
 }
 
-class SideSheetMaterial3 extends StatelessWidget {
+class InsetSideSheetMaterial3 extends StatelessWidget {
   final String header;
   final Widget body;
   final bool addBackIconButton;
@@ -148,7 +148,7 @@ class SideSheetMaterial3 extends StatelessWidget {
   final void Function()? confirmActionOnPressed;
   final void Function()? cancelActionOnPressed;
   final void Function()? onClose;
-  const SideSheetMaterial3({
+  const InsetSideSheetMaterial3({
     super.key,
     required this.header,
     required this.body,
