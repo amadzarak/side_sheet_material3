@@ -185,8 +185,8 @@ class SideSheetMaterial3 extends StatelessWidget {
         minimum: EdgeInsets.only(top: addBackIconButton ? 16 : 24),
         child: Container(
           constraints: BoxConstraints(
-            minWidth: 256,
-            maxWidth: size.width <= 600 ? size.width : 400,
+            minWidth: 500,
+            maxWidth: 550,
             minHeight: size.height,
             maxHeight: size.height,
           ),
