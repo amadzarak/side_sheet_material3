@@ -178,7 +178,7 @@ class SideSheetMaterial3 extends StatelessWidget {
       elevation: 1,
       color: colorScheme.surface,
       surfaceTintColor: colorScheme.surfaceTint,
-      borderRadius: const BorderRadius.horizontal(left: Radius.circular(28), right: Radius.circular(28)),
+      //borderRadius: const BorderRadius.horizontal(left: Radius.circular(28), right: Radius.circular(28)),
       child: SafeArea(
         top: safeAreaTop,
         bottom: safeAreaBottom,
