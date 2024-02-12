@@ -176,8 +176,8 @@ class SideSheetMaterial3 extends StatelessWidget {
     //Right side padding only if inset = true;
     return Material(
       elevation: 1,
-      color: colorScheme.surface,
-      surfaceTintColor: colorScheme.surfaceTint,
+      color: Colors.white,
+      surfaceTintColor: Colors.white,
       //borderRadius: const BorderRadius.horizontal(left: Radius.circular(28), right: Radius.circular(28)),
       child: SafeArea(
         top: safeAreaTop,
