@@ -186,7 +186,7 @@ class SideSheetMaterial3 extends StatelessWidget {
         child: Container(
           constraints: BoxConstraints(
             minWidth: 500,
-            maxWidth: 550,
+            maxWidth: 750,
             minHeight: size.height,
             maxHeight: size.height,
           ),
